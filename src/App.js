@@ -1,12 +1,14 @@
 import React from 'react';
 
-import Uploady from '@rpldy/uploady';
-import UploadButton from '@rpldy/upload-button';
+import UploadComponent from './UploadComponent';
 
-const App = ({ title }) => (<Uploady
-  destination={{ url: 'https://my-server/upload' }}>
-  <div>{title}</div>
-  <UploadButton/>
-</Uploady>);
+
+const App = ({ title }) => (
+  <div>
+    <h1>{title}</h1>
+    <UploadComponent> </UploadComponent>
+  </div>
+);
 
 export default App;
+
