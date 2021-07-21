@@ -126,7 +126,7 @@ class UploadComponent extends React.PureComponent {
   render() {
     return (
       <div>
-        <h2>Hello, world!</h2>
+        {/*<h2>Hello, world!</h2>*/}
         <Uploady destination={{ url: "https://my-server/upload" }} enhancer={mockSenderEnhancer}>
 
           <UploadWithProgressPreview/>

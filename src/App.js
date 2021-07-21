@@ -5,7 +5,7 @@ import UploadComponent from './UploadComponent';
 
 const App = ({ title }) => (
   <div>
-    <h1>{title}</h1>
+    {/*<h1>{title}</h1>*/}
     <UploadComponent> </UploadComponent>
   </div>
 );
